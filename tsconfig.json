@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es2015", // Change this to es2015
+    "lib": ["dom", "es2015"],
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules"]
+}
